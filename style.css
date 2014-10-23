@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.content_body {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.content_body:after {
+    content: "";
+    display: block;
+} 
+
+input[type="text"] {
+    width: 100%;
+    height: 1.5em;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="submit"] {
+    display: inline-block;
+}
+
+.content_body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: arial, sand-serif;
+    font-size: 13px;
+    color: #000;
+    margin: 0 auto;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 0.5%;
+    margin: 0;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    width: 5%;
+}
+
+#avatar img {
+    height: 45%; 
+    width: 45%;
+
+    border-radius: 50%;
+}
+
+#share {
+    color: #000;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px
+    font-size-adjust: none;
+    font-stretch: normal;
+    text-align: center;
+    white-space: nowrap;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    background-color: #f1f1f1;
+    line-height: 150%;
+    width: 5%;
+    margin-right: 2%;
+}
+
+#options img {
+    height: 40%;
+    width: 40%;
+}
+
+#bell img {
+    height: 40%;
+    width: 40%;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    border-top: 1px solid #E4E4E4;
+    width: 100%;
+    background: #f2f2f2;
+    height: 7%;
+}
+
+.left_foot ul li, .right_foot ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.left_foot ul li a, .right_foot ul li a {
+    text-decoration: none;
+    font-family: arial, sand-serif;
+    color: #666;
+    font-size: 13px;
+}
+
+.left_foot {
+    position: absolute;
+    float: left;
+    top: 20%;
+}
+
+.right_foot {
+    position: absolute;
+    right: 2.5%;
+    top: 20%;
+}
